@@ -1,0 +1,335 @@
+@font-face {
+  font-family: "simbols";
+  src: url("../fonts/icomoon.eot?afckd2");
+  src: url("../fonts/icomoon.eot?afckd2#iefix") format("embedded-opentype"),
+    url("../fonts/icomoon.ttf?afckd2") format("truetype"),
+    url("../fonts/icomoon.woff?afckd2") format("woff"),
+    url("../fonts/icomoon.svg?afckd2#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: small;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  flex-grow: 1;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons a {
+  margin: 10px;
+  text-decoration: none;
+  color: gray;
+}
+
+.getStarted {
+  padding: 10px 15px;
+  background-color: rgb(143, 143, 223);
+  border-radius: 5px;
+  border: 0;
+  color: azure;
+}
+
+.block1::before {
+  color: blue;
+  font-family: "simbols";
+  font-size: 25px;
+  content: "\e901";
+}
+
+.block2::before {
+  color: blue;
+  font-family: "simbols";
+  font-size: 25px;
+  content: "\e900";
+}
+
+.block3::before {
+  color: blue;
+  font-family: "simbols";
+  font-size: 25px;
+  content: "\e953";
+}
+.block4::before {
+  color: blue;
+  font-family: "simbols";
+  font-size: 25px;
+  content: "\e91d";
+}
+
+
+
+.icon1::before {
+  color: gray;
+  font-family: "simbols";
+  font-size: 25px;
+  font-weight: 10;
+  display: flex;
+  justify-content: center;
+  content: "\e985";
+}
+.icon2::before {
+  color: purple;
+  font-family: "simbols";
+  font-size: 25px;
+  font-weight: 10;
+  display: flex;
+  justify-content: center;
+  content: "\e900";
+}
+.icon3::before {
+  color: aqua;
+  font-family: "simbols";
+  font-size: 25px;
+  font-weight: 10;
+  display: flex;
+  justify-content: center;
+  content: "\e9d4";
+}
+.icon4::before {
+  color: red;
+  font-family: "simbols";
+  font-size: 25px;
+  font-weight: 10;
+  display: flex;
+  justify-content: center;
+  content: "\ea4e";
+}
+.icon5::before {
+  color: blue;
+  font-family: "simbols";
+  font-size: 25px;
+  font-weight: 10;
+  display: flex;
+  justify-content: center;
+  content: "\e956";
+}
+.icon6::before {
+  color: darkgoldenrod;
+  font-family: "simbols";
+  font-size: 25px;
+  font-weight: 10;
+  display: flex;
+  justify-content: center;
+  content: "\e94c";
+}
+
+.blog a {
+  text-decoration: none;
+  color: aqua;
+}
+
+.divider h1 {
+  color: rgb(54, 54, 54);
+}
+
+.divider p {
+  color: gray;
+}
+
+.blog h2 {
+  color: rgb(54, 54, 54);
+}
+
+.blogcontent {
+  color: gray;
+}
+
+.blocks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.content {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+}
+
+.team {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.team div {
+  margin: 10px;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.team img {
+  display: block;
+  width: 100%;
+  height: auto;
+  z-index: 0;
+}
+
+.blog {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.blog div {
+  margin: 10px;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.blog img {
+  display: flex;
+  width: 300px;
+  border-radius: 5px;
+}
+
+.member {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.memberinfo {
+  position: absolute;
+  bottom: -100px;
+  background-color: white;
+  z-index: 1;
+  padding: 10px;
+  width: 280px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.divider {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.teamTitle p {
+  width: 800px;
+}
+
+.skills div{
+  margin: 3px 2px;
+  padding: 30px 60px;
+  -webkit-box-shadow: 20px 20px 50px -7px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 20px 20px 50px -7px rgba(0, 0, 0, 0.25);
+  box-shadow: 20px 20px 50px -7px rgba(0, 0, 0, 0.25);
+  margin-bottom: 100px;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.menu a {
+  text-decoration: none;
+  color: gray;
+}
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.welcome p {
+  margin-top: -5px;
+  margin-bottom: 10px;
+}
+.welcome span {
+  color: rgb(42, 42, 219);
+}
+
+.welcome img {
+  width: 500px;
+}
+
+.image img {
+  width: 150px;
+  height: auto;
+}
+
+.blocks div {
+  margin: 15px;
+  width: 25%;
+}
+
+footer {
+  background-color: darkslategray;
+  color: wheat;
+  padding: 20px 100px 20px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer span {
+  background-color: slategray;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+footer .tw::before {
+  font-family: "simbols";
+  font-size: 15px;
+  font-weight: 10;
+  content: "\ea96";
+}
+footer .fb::before {
+  font-family: "simbols";
+  font-size: 15px;
+  font-weight: 10;
+  content: "\ea91";
+}
+footer .ins::before {
+  font-family: "simbols";
+  font-size: 15px;
+  font-weight: 10;
+  content: "\ea92";
+}
+footer .sk::before {
+  font-family: "simbols";
+  font-size: 15px;
+  font-weight: 10;
+  content: "\eac5";
+}
+footer .li::before {
+  font-family: "simbols";
+  font-size: 15px;
+  font-weight: 10;
+  content: "\eac9";
+}
